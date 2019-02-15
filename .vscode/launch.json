@@ -1,0 +1,42 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/src\\test01.js"
+    },
+    {
+      "name": "Launch myLoc",
+      "type": "chrome",
+      "request": "launch",
+      "sourceMaps": false,
+      "file": "${workspaceRoot}/src/myLoc\\index.html"
+    },
+    {
+      "name": "Launch localhost",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:8080/src/gumball/index.html",
+      "webRoot": "${workspaceFolder}/src/gumball"
+    },
+    {
+      "name": "Launch tweetshirt",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:8080/src/tweetshirt/index.html",
+      "webRoot": "${workspaceFolder}/src/tweetshirt"
+    },
+    {
+      "name": "Launch gumball",
+      "type": "chrome",
+      "request": "launch",
+      "sourceMaps": false,
+      "file": "${workspaceRoot}/src/gumball\\index.html"
+    }
+  ]
+}
